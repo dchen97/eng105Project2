@@ -18,3 +18,18 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline;
 }
+
+/* Small devices */
+@media (min-width: @screen-sm-min) {
+
+}
+
+/* Medium devices */
+@media (min-width: @screen-md-min) {
+
+}
+
+/* Large devices */
+@media (min-width: @screen-lg-min) {
+  
+}
