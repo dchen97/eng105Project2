@@ -6,23 +6,25 @@
   <!-- Disable user-scaling using mobile viewport -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <title>Veteran Service Corps</title>
-  <link type = "text/css" href = "/css/pages.css" rel = "stylesheet">
   <!-- Bootstrap -->
   <link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity = "sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link type = "text/css" href = "/css/pages.css" rel = "stylesheet">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
   <script src="pages.js"></script>
 </head>
 
 <body data-spy="scroll" data-target=".navbar">
-  <div class = "container-fluid"> // container-fluid allows it to span across full-width container
+  <div class = "container-fluid"> <!--container-fluid allows it to span across full-width container-->
     <div class = "navbar">
-      <ul class = "nav nav-tabs" role = "tablist">
-        <li>The Veterans</li>
-        <li>Their Problem</li>
-        <li>The Solution</li>
-      </ul>
+      <div class = "row">
+        <ul class = "nav nav-tabs" role = "tablist">
+          <a href = "#the-veterans"><li class = "col-md-4 text-center">The Veterans</li></a>
+          <a href = "#the-problem"><li class = "col-md-4 text-center">Their Problem</li></a>
+          <a href = "#the-solution"><li class = "col-md-4 text-center">The Solution</li></a>
+        </ul>
+      </div>
     </div>
     <h3 class = "text-center" id = "the-veterans">You've fought for the rights and ideals of America for 5 grueling years in Iraq.</h3>
-    
+
   </div>
 </body>
