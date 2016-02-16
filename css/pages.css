@@ -1,5 +1,6 @@
 body {
   position: relative;
+  padding-top: 70px;
 }
 
 ul {
@@ -9,6 +10,7 @@ ul {
 .container-fluid {
   text-align: center;
 }
+
 /* Small devices */
 @media (min-width: @screen-sm-min) {
 
