@@ -15,7 +15,7 @@ a.hover {
 }
 
 .navbar {
-  
+
 }
 
 ul {
@@ -28,12 +28,16 @@ ul {
 
 /* Small devices */
 @media (min-width: @screen-sm-min) {
-  padding-top: 150px;
+  .psa {
+    padding-top: 150px;
+  }
 }
 
 /* Medium devices */
 @media (min-width: @screen-md-min) {
-
+  .psa {
+    padding-top: 70px;
+  }
 }
 
 /* Large devices */
