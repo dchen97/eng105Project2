@@ -28,7 +28,7 @@ ul {
 
 /* Small devices */
 @media (min-width: @screen-sm-min) {
-
+  padding-top: 100px;
 }
 
 /* Medium devices */
