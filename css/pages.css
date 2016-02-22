@@ -12,16 +12,16 @@ a {
 }
 
 a:hover {
-  color: #e6e6e6;
+  color: #337ab7;
   text-decoration: underline;
-}
-
-.navbar {
-  background-color: lightgrey;
 }
 
 ul {
   list-style-type: none;
+}
+
+.nav>li>a{
+  background-color: grey;
 }
 
 .psa {
