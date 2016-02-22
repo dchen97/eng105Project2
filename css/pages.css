@@ -23,3 +23,16 @@ ul {
 .psa {
   padding-top: 70px;
 }
+
+#veteran-link:hover{
+  background-color: red;
+}
+
+#problem-link:hover{
+  background-color: white;
+  color: black;
+}
+
+#solution-link:hover{
+  background-color:blue;
+}
